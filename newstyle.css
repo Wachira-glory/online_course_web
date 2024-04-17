@@ -1,0 +1,272 @@
+body{
+    margin-right: 1%;
+    margin-left: -13%;
+}
+.login {
+    color: #E82F4E;
+    border-radius: 12px;
+    padding: 9px 6px;
+    border: 1px solid #E82F4E ;
+}
+.icon,
+h5 {
+    color: green;
+}
+
+.links a:hover,
+.icon:hover {
+    background-color: green;
+    color: white;
+    transition: 0.4s all linear;
+}
+.alinks{
+    display: flex;
+    gap: 15%;
+    margin-top: 5%;
+}
+.joinnow{
+    background-color: #E82F4E;
+    color: white;
+    border-radius: 5px;
+    padding: 9px 6px;
+    border: none;
+   
+}
+.landingpage{
+    display: flex;
+    gap: 2%;
+}
+.navbarbuttons {
+    display: flex;
+    gap: 23%;
+    gap: 15%;
+    margin-top: 5%;
+
+}
+.homebutton{
+    color: #E82F4E;
+}
+.nav{
+    color: rgb(115, 163, 179);
+    justify-content: space-around;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+}
+.landingpage2{
+    color: #E82F4E;
+    font-size: 160%;
+}
+.landingpage1{
+    color: #233860;
+    font-size: 160%;
+}
+.landingpage3{
+    color:#ABBDD4;
+    font-size: 160%;
+}
+.input-wrapper { 
+    position: relative; 
+    display: inline-block; 
+    
+} 
+
+.input-wrapper input { 
+    padding-right: 40px;
+    border-radius: 21px; 
+    padding: 14px 15px;
+    width: 153%;
+    border: grey 1px solid;
+} 
+
+.input-wrapper button { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+    background-color: #E82F4E;
+    color: white;
+    border-radius: 19px;
+    padding: 15px 15px;
+    transform: translate(138%,1%)
+} 
+.text4{
+    color: gray;
+}
+.landingPagee{
+    display: flex;
+    gap: 8%;
+    margin-top: 3%;
+}
+.input-button{
+    color: rgb(225,75,101);
+}
+#logos{
+    display: flex;
+    gap: 15%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.logo{
+    width: 90px;
+}
+@media (min-width:375px) and (max-width:435px) {
+
+    .navbar{
+        display: block;
+
+    }
+    .landingPagee{
+        display: block;
+    }
+    .input-wrapper { 
+        position: relative; 
+        display: inline-block; 
+        
+    } 
+    .landingpage2{
+        color: #E82F4E;
+        font-size: 100%;
+    }
+    .landingpage1{
+        color: #233860;
+        font-size: 100%;
+    }
+    .landingpage3{
+        color:#ABBDD4;
+        font-size: 100%;
+    }
+    
+    .input-wrapper input { 
+        padding-right: 40px;
+        border-radius: 21px; 
+        padding: 10px 10px;
+        width: 150%;
+        border: grey 1px solid;
+    } 
+    
+    .input-wrapper button { 
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        border: none; 
+        background-color: transparent; 
+        cursor: pointer; 
+        background-color: #E82F4E;
+        color: white;
+        border-radius: 19px;
+        padding: 13px 1px;
+        transform: translate(169%,-1%);
+        font-size: 84%;
+    } 
+    #logos{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    body{
+        margin-right: 3%;
+    }
+}
+@media (min-width:360px) and (max-width:364px) {
+    .navbar{
+        display: block;
+
+    }
+    .landingPagee{
+        display: block;
+    }
+    .input-wrapper { 
+        position: relative; 
+        display: inline-block; 
+        
+    } 
+    
+    .input-wrapper input { 
+        padding-right: 40px;
+        border-radius: 21px; 
+        padding: 14px 15px;
+        width: 83%;
+        border: grey 1px solid;
+    } 
+    
+    .input-wrapper button { 
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        border: none; 
+        background-color: transparent; 
+        cursor: pointer; 
+        background-color: #E82F4E;
+        color: white;
+        border-radius: 19px;
+        padding: 15px 15px;
+        transform: translate(68%,1%)
+    } 
+    #logos{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+  
+}
+@media (min-width:280px) and (max-width:360px) {
+    .landingpage2{
+        color: #E82F4E;
+        font-size: 100%;
+    }
+    .landingpage1{
+        color: #233860;
+        font-size: 100%;
+    }
+    .landingpage3{
+        color:#ABBDD4;
+        font-size: 100%;
+    }
+    .landingPagee{
+        display: block;
+    }
+    .input-wrapper { 
+        position: relative; 
+        display: inline-block; 
+        
+    } 
+    
+    .input-wrapper input { 
+        padding-right: 40px;
+        border-radius: 21px; 
+        padding: 14px 15px;
+        width: 83%;
+        border: grey 1px solid;
+    } 
+    
+    .input-wrapper button { 
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        border: none; 
+        background-color: transparent; 
+        cursor: pointer; 
+        background-color: #E82F4E;
+        color: white;
+        border-radius: 19px;
+        padding: 15px 15px;
+        transform: translate(28%,1%)
+    } 
+    #logos{
+        display: block;
+        gap: 10%;
+    }
+}
+
+
+
+
