@@ -1,12 +1,11 @@
 body{
-    margin-right: 1%;
-    margin-left: -13%;
+margin-right: 25%;
 }
 .login {
     color: #E82F4E;
     border-radius: 12px;
     padding: 9px 6px;
-    border: 1px solid #E82F4E ;
+    border: 1px solid #E82F4E;
 }
 .icon,
 h5 {
@@ -99,8 +98,8 @@ h5 {
 }
 .landingPagee{
     display: flex;
-    gap: 8%;
-    margin-top: 3%;
+    gap: 28%;
+    margin-top: 1%;
 }
 .input-button{
     color: rgb(225,75,101);
